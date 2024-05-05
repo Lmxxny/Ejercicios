@@ -45,7 +45,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(135, 145);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 22);
+            this.label5.Size = new System.Drawing.Size(67, 23);
             this.label5.TabIndex = 32;
             this.label5.Text = "Altura:";
             // 
@@ -70,7 +70,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(104, 274);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 22);
+            this.label3.Size = new System.Drawing.Size(89, 23);
             this.label3.TabIndex = 29;
             this.label3.Text = "Volumen:";
             // 
@@ -123,7 +123,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(138, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 22);
+            this.label2.Size = new System.Drawing.Size(62, 23);
             this.label2.TabIndex = 24;
             this.label2.Text = "Radio:";
             // 
@@ -143,7 +143,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(478, 398);
+            this.ClientSize = new System.Drawing.Size(478, 341);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txth);
             this.Controls.Add(this.txtvol);
@@ -155,7 +155,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Constantia", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
