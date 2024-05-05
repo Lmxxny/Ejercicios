@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Determinar_y
+namespace Función_5
 {
     public partial class Form1 : Form
     {
@@ -16,7 +16,6 @@ namespace Determinar_y
         {
             InitializeComponent();
         }
-
 
         private void btnlimpiar_Click(object sender, EventArgs e)
         {
@@ -30,11 +29,10 @@ namespace Determinar_y
             Application.Exit();
         }
 
-        private void btncalcular_Click(object sender, EventArgs e)
+        private void btncalc_Click(object sender, EventArgs e)
         {
-            int x1 = 2, x2;
-            int y1, y2;
-            double c = 2.5;
+            double x1 = 1, x2;
+            double y1, y2;
 
             if (string.IsNullOrEmpty(txtx.Text))
             {
@@ -45,10 +43,10 @@ namespace Determinar_y
             {
                 x2 = Convert.ToInt32(txtx.Text);
 
-                y1 = (int)(x1 * c - 2);
+                y1 = 5 * Math.Pow(x1, 4) + 2 * Math.Pow(x1, 3) + 3 * Math.Pow(x1, 2) + 7;
                 txty1.Text = y1.ToString();
 
-                y2 = (int)(x2 * c - 2);
+                y2 = 5 * Math.Pow(x2, 4) + 2 * Math.Pow(x2, 3) + 3 * Math.Pow(x2, 2) + 7;
                 txty2.Text = y2.ToString();
             }
         }
